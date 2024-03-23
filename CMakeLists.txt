@@ -8,6 +8,8 @@ include_directories("src/**/**.h")
 add_executable(simple_factory ./src/01_simple_factory/operation.cpp)
 # 02-strategy
 add_executable(strategy ./src/02_strategy/cash_compute.cpp)
+# 03-decorator
+add_executable(decorator ./src/03_decorator/finery.cpp)
 
 # target_link_libraries(main ${OpenCV_LIBS})
 # cmake -G "MinGW Makefiles" ..
