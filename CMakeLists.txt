@@ -12,6 +12,8 @@ add_executable(strategy ./src/02_strategy/cash_compute.cpp)
 add_executable(decorator ./src/03_decorator/finery.cpp)
 # 04-proxy
 add_executable(proxy ./src/04_proxy/pursuit.cpp)
+# 05-factory_method
+add_executable(factory_method ./src/05_factory_method/leifeng.cpp)
 
 # target_link_libraries(main ${OpenCV_LIBS})
 # cmake -G "MinGW Makefiles" ..
