@@ -3,6 +3,10 @@ cmake_minimum_required(VERSION 3.10)
 project(design_pattern)
 set(CMAKE_BUILD_TYPE Release)
 
+add_subdirectory(01-creational)
+add_subdirectory(02-structural)
+add_subdirectory(03-behavioral)
+
 include_directories("src/**/**.h")
 # 01-simple_factory
 add_executable(simple_factory ./src/01_simple_factory/operation.cpp)
