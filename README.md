@@ -38,15 +38,13 @@
 
 [toc]
 
-C++设计模式代码
 [卡码网-23种设计模式精讲](https://github.com/youngyangyang04/kama-DesignPattern)
 
 [大话设计模式](https://github.com/datawhalechina/sweetalk-design-pattern)
 
 [设计模式超简单的解释-英文](https://github.com/kamranahmedse/design-patterns-for-humans)
-[设计模式超简单的解释-中文](https://github.com/guanguans/design-patterns-for-humans-cn)
 
-23种设计模式
+[设计模式超简单的解释-中文](https://github.com/guanguans/design-patterns-for-humans-cn)
 
 ## 创建型(Creational Design Patterns)
 
