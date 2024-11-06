@@ -8,6 +8,21 @@ public:
     virtual void display(int depth) = 0;
 };
 
+class Employee : public Component
+{
+private:
+    std::string name;
+
+public:
+    Employee(const std::string &name) : name(name) {}
+
+    void display(int depth) override
+    {
+        std::string indent((depth + 1) * 2, ' ');
+        std::cout << indent << name << std::endl;
+    }
+};
+
 class Department : public Component
 {
 private:
@@ -30,21 +45,6 @@ public:
         {
             component->display(depth + 1);
         }
-    }
-};
-
-class Employee : public Component
-{
-private:
-    std::string name;
-
-public:
-    Employee(const std::string &name) : name(name) {}
-
-    void display(int depth) override
-    {
-        std::string indent((depth + 1) * 2, ' ');
-        std::cout << indent << name << std::endl;
     }
 };
 
