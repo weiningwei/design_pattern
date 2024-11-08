@@ -24,7 +24,7 @@
     - [迭代器模式(Iterator)](#迭代器模式iterator)
     - [状态模式(State)](#状态模式state)
     - [责任链模式(Chain Of Responsibilities)](#责任链模式chain-of-responsibilities)
-    - [解释器模式](#解释器模式)
+    - [解释器模式(Interpreter)](#解释器模式interpreter)
     - [访问者模式(Visitor)](#访问者模式visitor)
   - [简单工厂模式](#简单工厂模式)
   - [策略模式](#策略模式)
@@ -75,7 +75,7 @@
 ### 迭代器模式(Iterator)
 ### 状态模式(State)
 ### 责任链模式(Chain Of Responsibilities)
-### 解释器模式
+### 解释器模式(Interpreter)
 ### 访问者模式(Visitor)
 
 
