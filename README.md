@@ -46,6 +46,8 @@
 
 [设计模式超简单的解释-中文](https://github.com/guanguans/design-patterns-for-humans-cn)
 
+[C++11全套设计模式-23种指针的用法](https://github.com/jaredtao/DesignPattern)
+
 ## 创建型(Creational Design Patterns)
 
 ### 单例模式(Singleton)
